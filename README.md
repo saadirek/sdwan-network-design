@@ -73,4 +73,5 @@ Once edited, Go back to sdwan-network-design directory and run the code.
 python network-design-config.py <VMANAGE_IP_ADDRESS> <USER> <PASSWORD> 
 ```
 
-
+## Note : 
+When using this script. Please do not remove any other folders in the repository.
