@@ -66,4 +66,11 @@ Example of the config.json
 }
 
 ```
-Once edited, Go back to sdwan-network-design directory
+The user can also edit the global feature template and localized policy. If "true", the script will configure for both vEdge and cEdge IOS-XE SDWAN. Note, the global_qos should set as "false" if the script is run for the 2nd time. Otherwise, it will throw the error configuring the qos because the qos configuration is already pushed to the vManage. But it should be fine.
+
+Once edited, Go back to sdwan-network-design directory and run the code.
+```
+python network-design-config.py <VMANAGE_IP_ADDRESS> <USER> <PASSWORD> 
+```
+
+
