@@ -7,9 +7,7 @@ To use this code you will need:
 
 Python 3.7+
 Cisco SDWAN vManage 20.1+
-
-## Support Edge Router model
-vEdge, cEdge 
+Supported : vEdge, cEdge 
 
 ## Install and Setup 
 Download the code to local machine 
@@ -24,6 +22,8 @@ source venv/bin/activate
 pip install requirements.txt
 ```
 Before running the script, the config.json file needs to be modified first. The example of the config file is at the ./config/config.json. The user needs to go there and edit the information of the prefix, wan, lan and so on. When editting, please follow the format strictly. Eg. all boolean infomation will be put as a string. ("true","false"). 
+
+For the model, the user can see it in the "model_list.txt". Please put the exact name in the model field.
 
 Example of the config.json 
 ```
