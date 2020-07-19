@@ -1,0 +1,21 @@
+{
+  "disk": {
+    "enable": {
+      "vipObjectType": "object",
+      "vipValue": "true",
+      "vipType": "ignore"
+    },
+    "file": {
+      "size": {
+        "vipObjectType": "object",
+        "vipValue": 10,
+        "vipType": "ignore"
+      },
+      "rotate": {
+        "vipObjectType": "object",
+        "vipValue": 10,
+        "vipType": "ignore"
+      }
+    }
+  }
+}

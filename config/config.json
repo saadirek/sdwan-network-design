@@ -1,0 +1,79 @@
+{
+    "edge_router": [
+        {
+            "prefix" : "HQ",
+            "model" : "vedge-ISR-4331",
+            "wan_route": "2",
+            "interface" : {
+            "wan": [
+                {
+                    "if_name" : "GigabitEthernet0/0/0",
+                    "ip_type" : "dhcp",
+                    "nat_type" : "true",
+                    "restrict" : "true"
+                },
+                {
+                    "if_name" : "GigabitEthernet0/0/1",
+                    "ip_type" : "static",
+                    "nat_type" : "false",
+                    "restrict" : "true"
+                }
+            ],
+            "lan": [
+                {
+                    "if_name" : "GigabitEthernet0/0/2",
+                    "ip_type" : "static"
+                }
+            ],
+            "mgmt": [
+                {
+                    "oob_mgmt" : "true",
+                    "if_name" : "GigabitEthernet0"
+                }
+            ]
+            }
+        },
+        {
+            "prefix" : "BR",
+            "model" : "vedge-ISR1100-4G",
+            "wan_route": "2",
+            "interface" : {
+                "wan": [
+                    {
+                        "if_name" : "ge0/0",
+                        "ip_type" : "dhcp",
+                        "nat_type" : "true",
+                        "restrict" : "false"
+                    },
+                    {
+                        "if_name" : "ge0/1",
+                        "ip_type" : "static",
+                        "nat_type" : "false",
+                        "restrict" : "true"
+                    }
+                ],
+                "lan": [
+                    {
+                        "if_name" : "ge0/3.10",
+                        "ip_type" : "static"
+                    },
+                    {
+                        "if_name" : "ge0/3.20",
+                        "ip_type" : "static"
+                    }
+                ],
+                "mgmt": [
+                    {
+                        "oob_mgmt" : "false",
+                        "if_name" : ""
+                    }
+                ]
+            }
+        }
+    ],  
+    "global_qos" : "true",
+    "global_omp":"true",
+    "global_bfd":"true"
+}
+
+

@@ -1,0 +1,22 @@
+{
+  "app-route": {
+    "multiplier": {
+      "vipObjectType": "object",
+      "vipType": "ignore",
+      "vipValue": 6
+    },
+    "poll-interval": {
+      "vipObjectType": "object",
+      "vipType": "ignore",
+      "vipValue": 600000
+    }
+  },
+  "color": {
+    "vipType": "ignore",
+    "vipValue": [],
+    "vipObjectType": "tree",
+    "vipPrimaryKey": [
+      "color"
+    ]
+  }
+}
