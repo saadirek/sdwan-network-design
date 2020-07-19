@@ -8,6 +8,9 @@ To use this code you will need:
 Python 3.7+
 Cisco SDWAN vManage 20.1+
 
+## Support Edge Router model
+vEdge, cEdge 
+
 ## Install and Setup 
 Download the code to local machine 
 ```
