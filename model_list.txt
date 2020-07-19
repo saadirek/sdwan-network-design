@@ -1,7 +1,7 @@
 ================
 vedge_model_list 
 ================
-ledge-1000
+vedge-1000
 vedge-2000
 vedge-cloud
 vedge-5000
