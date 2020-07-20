@@ -9,6 +9,16 @@ Python 3.7+
 Cisco SDWAN vManage 20.1+
 Supported : vEdge, cEdge 
 
+Feature template supported 
+- OMP 
+- BFD 
+- VPN 
+- Interface Tunnel / Tunnel restriction
+- Sub-interface.
+- Localized-Policy
+ 
+For subinterface, the user does not need to put in the "Parent" interface. The user just put in the sub-interface eg. "GigabitEthernet0/0/1.100". Script will automatically create the parent interface with the 1504 MTU size. 
+
 ## Install and Setup 
 Download the code to local machine 
 ```
