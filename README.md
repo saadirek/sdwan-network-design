@@ -73,7 +73,7 @@ Example of the config.json
             }
         }
     ],  
-    "global_qos" : "true",
+    "global_qos":"true",
     "global_omp":"true",
     "global_bfd":"true"
 }
