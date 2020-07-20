@@ -31,7 +31,7 @@ python3.7 -m venv venv
 source venv/bin/activate
 pip install requirements.txt
 ```
-Before running the script, the config.json file needs to be modified first. The example of the config file is at the ./config/config.json. The user needs to go there and edit the information of the prefix, wan, lan and so on. When editting, please follow the format strictly. Eg. all boolean infomation will be put as a string. ("true","false"). 
+Before running the script, the config.json file needs to be modified first. The example of the config file is at the **./config/config.json**. The user needs to go there and edit the information of the prefix, wan, lan and so on. When editting, please follow the format strictly. Eg. all boolean infomation will be put as a string. ("true","false"). 
 
 For the model, the user can see it in the "model_list.txt". Please put the exact name in the model field.
 
